@@ -49,7 +49,7 @@ class _DesignState extends State<Design> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   CircleAvatar(
-                    radius: 50,
+                    radius: 40.0,
                     backgroundImage: AssetImage('assets/Login.png'),
                     backgroundColor: Colors.white,
                   ),
@@ -79,7 +79,7 @@ class _DesignState extends State<Design> {
                         ),
                       ),
                       margin: EdgeInsets.symmetric(
-                          vertical: 10.0, horizontal: 15.0),
+                          vertical: 10.0, horizontal: 20.0),
                       color: Colors.white,
                       child: ListTile(
                         leading: Icon(
