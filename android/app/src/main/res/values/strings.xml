@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    Please update your facebook config in this strings-->
+    <string name="app_name">Login</string>
+    <string name="facebook_app_id">586572198618664</string>
+    <string name="fb_login_protocol_scheme">fb586572198618664</string>
+</resources>

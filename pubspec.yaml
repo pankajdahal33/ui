@@ -1,0 +1,33 @@
+name: ui
+description: A new Flutter project.
+version: 1.0.0+1
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  google_sign_in: ^4.0.2
+  
+  firebase_auth: ^0.15.4
+  http:
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.8.1
+  flutter_facebook_login: ^3.0.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/Login.png
+   - assets/img.png
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+
+    - family: Girassol
+      fonts:
+        - asset: fonts/Girassol-Regular.ttf
